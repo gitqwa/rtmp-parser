@@ -1,0 +1,33 @@
+# ---------- 编译产物 ----------
+build/
+*.obj
+*.o
+*.a
+*.so
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.exp
+*.idb
+*.recipe
+*.tlog
+*.lastbuildstate
+
+# ---------- CMake ----------
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.slnx
+.vs/
+out/
+
+# ---------- 编辑器 / IDE ----------
+.vscode/settings.json
+*.swp
+*~
+
+# ---------- 系统 ----------
+Thumbs.db
+.DS_Store
+desktop.ini

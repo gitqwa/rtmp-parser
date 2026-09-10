@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug rtmp_probe (MSVC)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Debug/rtmp_probe.exe",
+            "args": [
+                "${workspaceFolder}/rtmp.pcap"
+            ],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal",
+            "preLaunchTask": "CMake: build rtmp_probe (Debug)"
+        }
+    ]
+}

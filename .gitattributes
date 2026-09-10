@@ -1,0 +1,12 @@
+# 仓库内统一用 LF —— 项目同时要在 WSL / Linux 下 make，
+# 文本文件被检出成 CRLF 会让 make / 脚本报奇怪错误
+* text=auto eol=lf
+
+# Windows 批处理必须保留 CRLF
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+
+# 二进制
+*.pcap binary
+*.png  binary
+*.jpg  binary
